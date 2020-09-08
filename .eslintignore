@@ -2,3 +2,4 @@ node_modules
 dist
 prisma
 generated
+.github

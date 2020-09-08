@@ -1,5 +1,10 @@
 # ts-graphql-starter
 
+<p align="left">
+<img src="https://github.com/Vict0r7/ts-graphql-starter/workflows/Tests/badge.svg"/>
+<img src="https://img.shields.io/david/Vict0r7/ts-graphql-starter"/>
+</p>
+
 _This repository is an opinionated starter project to build a robust and scalable backend service in **TypeScript**, with a code-first approach, exposing a GraphQL endpoint, and using a postgres database as an example_
 
 ## Core dependencies
