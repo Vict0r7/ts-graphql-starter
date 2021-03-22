@@ -556,10 +556,12 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@prisma/cli@^2.6.2":
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.6.2.tgz#52fb447f702f159c9a218f720b0b809581815a0b"
-  integrity sha512-aDzA1kWwmfyt1FeTzayZ6fDc9uXRo+gt+KFsR9bNqHtdge2aZLA9N/ft9+1627HOADIQgfTFw41K0GOMBJQ48w==
+"@prisma/cli@^2.19.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@prisma/cli/-/cli-2.19.0.tgz#6955a59a66c99a4896de80af10dec54e9f69d637"
+  integrity sha512-a3OlD3H9SaFaF4bP1JdcPLE6ysJqQy5JmJs2/NbKAasbDUPWsJldbbZ52x3dMqnqgBy1zDxycw0irfHi5VfWJg==
+  dependencies:
+    "@prisma/engines" "2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d"
 
 "@prisma/client@2.7.1":
   version "2.7.1"
@@ -567,6 +569,11 @@
   integrity sha512-IEWDCuvIaQTira8/jAyf+uY+AuPPUFDIXMSN4zEA/gvoJv2woq7RmkaubS+NQVgDbbyOR6F3UcXLiFTYQDzZkQ==
   dependencies:
     pkg-up "^3.1.0"
+
+"@prisma/engines@2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d":
+  version "2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d.tgz#db2809a6f7f18584e3ca89b1f5bad884155629ec"
+  integrity sha512-rEWpaG7wZvPuWJC5SwkBB/Iwue//oC5yv58Mse7r+ibtgkA7vGdWc1bFDQ32DT9tDL5WSC6bBwqEASGV/1Gm1Q==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
